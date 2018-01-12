@@ -1,0 +1,18 @@
+git clone <httpurl> - For getting the code to the local for the first time
+git status - it will show list of changes
+git pull - it will get update from master
+git checkout -b apitest - it will create branch in local
+git branch - it will show branch list
+git status - it will show list of changes
+git add -A - it will add all the changed files to the new branch
+git status - it will show list of changes
+git add -A - it will add all the changed files to the new branch
+git status - it will show list of changes
+git commit -m "api test case file added" - it will commit file to the local branch
+git checkout -b master_clone_apitest - it will create branch in local
+git merge apitest - it merges one branch changes to another branch
+git checkout master - It will switch to master branch
+git pull - it will get update from master
+git merge master_clone_apitest - it merges master_clone_apitest changes to master branch
+git status - it will show list of changes
+git push origin master - it will commit all the changes in remote master
